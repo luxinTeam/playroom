@@ -1,10 +1,10 @@
 <script>
     var a = prompt("输入账户+密码")
-    if(a !='admin1111'){
+    if(a=='admin1111'){
+        pass()
+    }else{
         alert("错误")
         location.reload()
-    }else{
-        pass()
     }
     function pass(){
         location.replace("./home.html")
